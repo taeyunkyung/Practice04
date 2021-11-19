@@ -6,7 +6,8 @@ public class Ex04 {
 		// TODO Auto-generated method stub
 
 		int[] data = new int[] {1,3,5,8,9,11,15,19,18,20,30,33,32};
-		int sum=0; int n=0;
+		int sum=0; 
+		int n=0; // 개수 카운트 용
 		
 		for(int i=0; i<data.length; i++) {
 			if(data[i]%3==0) {

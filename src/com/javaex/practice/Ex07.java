@@ -24,9 +24,9 @@ public class Ex07 {
 		
 		System.out.print("금액:"); int num = sc.nextInt();
 		for(int i=0; i<wonArray.length; i++) {
-			if(num-wonArray[i]>0) {
-				count[i]=num/wonArray[i];
-				num=num%wonArray[i];}
+			// if(num-wonArray[i]>0) : 몫과 나머지를 사용하니까 이게 필요가 없구나
+			count[i]=num/wonArray[i];
+			num=num%wonArray[i];
 			System.out.println(wonArray[i]+"원:"+count[i]+"개");
 		}
 		
