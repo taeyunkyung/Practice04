@@ -11,7 +11,8 @@ public class Ex04 {
 		
 		for(int i=0; i<data.length; i++) {
 			if(data[i]%3==0) {
-				sum=sum+data[i];
+				// sum=sum+data[i];
+				sum += data[i]; // 안써본 연산자
 				n++;
 				}
 			}
